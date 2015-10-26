@@ -30,18 +30,21 @@
   height: 40px;
   border-top: 1px solid #999999;
   border-bottom: 1px solid #999999;
+  border-bottom-left-radius: 9px;
+  border-bottom-right-radius: 9px;
   background-color: #eeeeee;
-  font-size: 28px;
+  font-size: 20px;
   font-family: serif;
   font-weight: bold;
   text-transform: uppercase;
   text-align: center;
+  padding-top: 10px;
 }
 
 .nav a{
   text-decoration: none;
   color: #000000;
-  padding:0px 10px 0px 20px;
+  padding:0px 10px 0px 10px;
 }
 
 .nav a:hover{
@@ -64,12 +67,14 @@
 	height: 20px;
 	border-top: 1px solid #999999;
 	border-bottom: 1px solid #999999;
+	border-top-left-radius: 9px;
+	border-top-right-radius: 9px;
 	background-color: #eeeeee;
 	font: italic 12px courier new;
 	color: #888888;
 	text-transform: uppercase;
 	text-align: center;
-
+    padding-top: 5px;
 }
 
 .body{
